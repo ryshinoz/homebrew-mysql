@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-class MySQL5628_Mroonga510 < Formula
+class Mysql5628_Mroonga510 < Formula
   homepage "http://mroonga.org/"
   url "http://packages.groonga.org/source/mroonga/mroonga-5.10.tar.gz"
   sha256 "2db24bd670fbb88f77a9f850a0d7fa06fc6f7609b33ae41cf9171793e8f75531"
