@@ -1,8 +1,14 @@
 class Mysql5628 < Formula
   desc "Open source relational database management system"
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
+  # srcも自前配信するようにする
   url "https://cdn.mysql.com/Downloads/MySQL-5.6/mysql-5.6.28.tar.gz"
   sha256 "217cd96921abdd709b9b4ff3ce2af4cbd237de43679cf19385d19df03a037b21"
+
+  # bottleを配信できるようになったらおく
+	#bottle do
+  #  sha256 "c6aebcad3deb1309c200962b36c7a62b9afecd694c3766f57ff1ed5c430703ed" => :el_capitan
+  #end
 
   option :universal
   option "with-tests", "Build with unit tests"
