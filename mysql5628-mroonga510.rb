@@ -4,12 +4,6 @@ class Mysql5628Mroonga510 < Formula
   url "http://packages.groonga.org/source/mroonga/mroonga-5.10.tar.gz"
   sha256 "2db24bd670fbb88f77a9f850a0d7fa06fc6f7609b33ae41cf9171793e8f75531"
 
-  bottle do
-    root_url "https://homebrew-ryshinoz.s3.amazonaws.com/bottle"
-    cellar :any_skip_relocation
-    sha256 "5536083922d9998b8149d7350f74d8642b391c0ff4307468bd1058fcc7652146" => :el_capitan
-  end
-
   depends_on "pkg-config" => :build
 
   option "use-homebrew-mysql", "Use MySQL installed by Homebrew."
