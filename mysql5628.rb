@@ -5,7 +5,7 @@ class Mysql5628 < Formula
   sha256 "217cd96921abdd709b9b4ff3ce2af4cbd237de43679cf19385d19df03a037b21"
 
 	bottle do
-    root_url "https://homebrew-ryshinoz.amazonaws.com/bottle"
+    root_url "https://homebrew-ryshinoz.s3.amazonaws.com/bottle"
     sha256 "c6aebcad3deb1309c200962b36c7a62b9afecd694c3766f57ff1ed5c430703ed" => :el_capitan
   end
 
